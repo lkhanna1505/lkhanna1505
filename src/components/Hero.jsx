@@ -9,9 +9,9 @@ const Hero = ({ scrollContainer }) => {
           <h1 className='font-medium text-white font-[Orbitron] text-[24px] xs:text-[30px] sm:text-[40px] md:text-[48px] lg:text-[60px] 2xl:text-[108px] leading-[66px] 2xl:leading-[96px] mb-8 sm:mb-12 lg:mb-16'>
             LAKSHYA
           </h1>
-          <div className="scale-75 origin-top">
+          {/* <div className="scale-75 origin-top">
             <Position />
-          </div>
+          </div> */}
         </div>
         <div className="flex-1 flex justify-start lg:justify-end mt-8 sm:mt-16 md:mt-20 lg:mt-24 2xl:mt-32 ml-5 xs:ml-[-2vh] sm:ml-[-10vh] md:ml-[-16vh]">
           <div className='font-bold text-[12px] sm:text-[18px] md:text-[22px] 2xl:text-[28px] sm:leading-[24px] md:leading-[30px] 2xl:leading-[36px] streaky-glow max-w-xs 2xl:max-w-md text-white text-left'>
