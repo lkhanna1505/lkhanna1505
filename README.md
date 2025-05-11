@@ -1,4 +1,4 @@
-# 🚀 Epic README for
+# 🚀 Epic README
 
 ### 👋 Hey there! I'm LAKSHYA – a code craftsman, digital explorer, and a relentless problem solver currently pursuing a B.Tech in Computer Science and Engineering at SRM-IST Delhi-NCR Campus.
 
