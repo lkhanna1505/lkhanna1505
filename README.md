@@ -30,8 +30,6 @@ This repository is a curated collection of my most ambitious and epic projects �
 
 This is not just a collection of code – it’s a showcase of what I love building: impactful tools, slick interfaces, and data-driven systems. If you’re into solving problems with code and pushing boundaries, you’re in the right place.
 
-[![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=lkhanna1505)]
-
 ### 🔥 Let’s Connect:
 
 * 📫 [LinkedIn](https://www.linkedin.com/in/lkhanna1505)
