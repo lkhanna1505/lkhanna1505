@@ -14,9 +14,9 @@ const Hero = ({ scrollContainer }) => {
           </div> */}
         </div>
         <div className="flex-1 flex justify-start lg:justify-end mt-8 sm:mt-16 md:mt-20 lg:mt-24 2xl:mt-32 ml-5 xs:ml-[-2vh] sm:ml-[-10vh] md:ml-[-16vh]">
-          <div className='font-bold text-[16px] sm:text-[24px] md:text-[30px] 2xl:text-[36px] sm:leading-[28px] md:leading-[36px] 2xl:leading-[44px] streaky-glow max-w-xs 2xl:max-w-md text-white text-left font-[Creepster]'>
+          {/* <div className='font-bold text-[16px] sm:text-[24px] md:text-[30px] 2xl:text-[36px] sm:leading-[28px] md:leading-[36px] 2xl:leading-[44px] streaky-glow max-w-xs 2xl:max-w-md text-white text-left font-[Creepster]'>
             I love learning <br /> captivating experiences for the programming world to savor.
-          </div>
+          </div> */}
         </div>
       </div>
 

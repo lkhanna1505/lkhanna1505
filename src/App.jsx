@@ -13,13 +13,12 @@ const App = () => {
           <div id="hero" className='z-10'>
             <Hero scrollContainer={wrapperRef} />
           </div>
-          <div id="portfolio" className='relative z-30 bg-primary mt-[-2px]'>
+          <div id="experience" className='relative z-30 bg-primary'>
+            <Experience />
+          </div>
+          <div id="projects" className='relative z-30 bg-primary'>
             <Portfolio />
           </div>
-          {/* Comment out the below to add experience and change the details in the assets/data/index.js accordingly */}
-          {/* <div id="experience" className='relative z-30 bg-primary'>
-            <Experience />
-          </div> */}
           <div id="contact" className='relative z-30 bg-primary'>
             <Contact />
           </div>

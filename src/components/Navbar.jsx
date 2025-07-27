@@ -19,21 +19,23 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    const sections = document.querySelectorAll("div[id]");
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActive(entry.target.id);
-          }
-        });
+        // Find the entry with the highest intersectionRatio
+        const mostVisible = entries
+          .filter(entry => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+        if (mostVisible) {
+          setActive(mostVisible.target.id);
+        }
       },
       {
-        threshold: 0.2,
-        rootMargin: '0px 0px -50% 0px'
+        threshold: [0.3, 0.5, 0.7], // Multiple thresholds for better accuracy
+        rootMargin: '0px 0px -20% 0px',
       }
     );
 
+    const sections = Array.from(document.querySelectorAll('div[id]'));
     sections.forEach((section) => observer.observe(section));
 
     return () => sections.forEach((section) => observer.unobserve(section));

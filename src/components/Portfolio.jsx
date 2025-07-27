@@ -12,6 +12,7 @@ const ProjectCard = ({
   name,
   description,
   image,
+  github,
 }) => {
   const controls = useAnimation();
   const { ref, inView } = useInView({
@@ -35,15 +36,21 @@ const ProjectCard = ({
       className={`w-full mt-[-2px] flex flex-col md:flex-row ${isEven ? "md:flex-row" : "md:flex-row-reverse"} gap-3`}
     >
       <div className='relative w-full md:w-3/5'>
-        <img
-          src={image}
-          alt='project_image'
-          className='w-full h-auto object-cover md:rounded-2xl'
-        />
+        <a href={github} target="_blank" rel="noopener noreferrer">
+          <img
+            src={image}
+            alt={name}
+            className='w-full h-auto object-cover md:rounded-2xl'
+          />
+        </a>
       </div>
 
       <div className={`w-full md:w-2/5 px-4 md:p-10 flex flex-col justify-center ${isEven ? "text-left md:text-left" : "text-left md:text-right"}`}>
-        <h3 className='text-white font-medium text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl leading-tight'>{name}</h3>
+        <a href={github} target="_blank" rel="noopener noreferrer">
+          <h3 className='text-white font-medium text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl leading-tight hover:underline'>
+            {name}
+          </h3>
+        </a>
         <p className='mt-2 text-secondary text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl'>{description}</p>
       </div>
     </motion.div>
