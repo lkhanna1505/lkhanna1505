@@ -109,4 +109,4 @@ const Navbar = () => {
   );
 };
 
-export default sectionWrapper("Navbar", Navbar);
+export default SectionWrapper("Navbar", Navbar);
