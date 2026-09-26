@@ -3,6 +3,7 @@
 ### 👋 Hey there! I'm LAKSHYA – a code craftsman, digital explorer, and a relentless problem solver currently pursuing a B.Tech in Computer Science and Engineering at SRM-IST Delhi-NCR Campus.
 
 [![LeetCode Stats](https://www.readmecodegen.com/api/leetcode-stats?username=Lkhanna1505&theme=github_dark)](https://www.readmecodegen.com/leetcode-stats-generator/leetcode-stats-card-generator-for-github)
+[![GitHub Stats](https://www.readmecodegen.com/api/github-stats/svg?username=lkhanna1505)](https://www.readmecodegen.com/custom-github-card-generator)
 
 ### 🎯 What This Repo Is About:
 
