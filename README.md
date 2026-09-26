@@ -2,6 +2,8 @@
 
 ### 👋 Hey there! I'm LAKSHYA – a code craftsman, digital explorer, and a relentless problem solver currently pursuing a B.Tech in Computer Science and Engineering at SRM-IST Delhi-NCR Campus.
 
+[![LeetCode Stats](https://www.readmecodegen.com/api/leetcode-stats?username=Lkhanna1505&theme=github_dark)](https://www.readmecodegen.com/leetcode-stats-generator/leetcode-stats-card-generator-for-github)
+
 ### 🎯 What This Repo Is About:
 
 This repository is a curated collection of my most ambitious and epic projects – a playground where code meets creativity and where I push the boundaries of what’s possible with tech. Expect a mix of:
